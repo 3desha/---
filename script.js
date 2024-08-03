@@ -87,5 +87,14 @@ function game(){
     else if (container3.textContent == '0' && container5.textContent =='0' && container7.textContent=='0'){alert(`Победил ${name1}`)}
     else if(count==9){
       alert('Ничья')
+      container1.textContent='';
+      container2.textContent='';
+      container3.textContent='';
+      container4.textContent='';
+      container5.textContent='';
+      container6.textContent='';
+      container7.textContent='';
+      container8.textContent='';
+      container9.textContent='';
     }
   }
