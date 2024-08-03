@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+body{
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
+  background-color: #F5D5D5;
+}
+.mainContent{
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
+}
+.game{
+  justify-content:center;
+  align-self:center;
+  display:flex;
+  flex-direction: column;
+  padding:auto;
+}
+.container{
+  display:flex;
+  outline: 4px solid black;
+  justify-content: center;
+  align-items: center;
+  height:100px;
+  width:100px;
+  font-size: 50px;
+  cursor: pointer;
+}
+.row{
+  display:flex;
+  flex-direction: row;
+}
+.input1{
+  display: flex;
+  padding: 18px 14px;
+  align-items: center;
+  border-radius: 18px;
+  background: var(--White, #FFF);
+  font-size:18px;
+  border:none;
+}
+.form{
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+  justify-content:center;
+  align-items:center;
+  border:2px solid var(--Yellow, #F5FA93);
+  background-color: grey;
+  padding: 32px;
+  border-radius: 32px;
+  max-width:1000px;
+  width:100%;
+}
+.button{
+  border-radius: 18px;
+  border: 1px solid var(--black-low, #333);
+  display: flex;
+  width: 180px;
+  background-color: ;
+  padding: 10px 14px;
+  align-items: center;
+  gap: 8px;
+  background: var(--black-background, #140E17);
+  cursor:pointer;
+  height: 60px;
+  color:white;
+  justify-content: center;
+  font-size:18px;
+}
+.button:hover{
+  background-color: #F5D5D5;
+  color:black;
+}
+.move{
+  font-size: 25px;
+  color:black;
+  padding-top:20px;
+}
+@media(max-width:480px){
+  .main-content{
+    max-width: 480px;
+    width:100%;
+  }
+  .form{
+    max-width:480px;
+  }
